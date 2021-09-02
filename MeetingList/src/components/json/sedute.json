@@ -1,0 +1,31 @@
+{
+  "18012016": {
+    "dataSeduta": "18/01/2016",
+    "versionNumber": "3",
+    "order": 89,
+    "odgIds": [
+      "hidden",
+      "verbali",
+      "comunicazioni",
+      "attivitaistituzionale",
+      "investimentipatrimoniali",
+      "default",
+      "varie"
+    ]
+  },
+  "25012016": {
+    "dataSeduta": "25/01/2016",
+    "versionNumber": "7",
+    "order": 88,
+    "odgIds": [
+      "hidden",
+      "default",
+      "comunicazioni",
+      "attivitaistituzionale",
+      "personale",
+      "investimentipatrimoniali",
+      "varie",
+      "proposteintervento"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    /*background-color: #ffeeef;*/
+}
+td {
+    padding: 10px;
+}
+table.Entrate td {
+    background-color: white;
+}
+table.Entrate tr:nth-child(2) td {
+    font-weight: bold;
+}
+table.Entrate tr:last-child td,
+table.Uscite tr:last-child td {
+    background-color: #ffeeef;
+    color: rgb(75, 3, 7);
+    font-weight: bold;
+}
+table.Uscite td {
+    background-color: white;
+    border: unset;
+}
+table.Uscite td:nth-child(3),
+table.Uscite td:nth-child(4)
+{
+    display: none;
+}
+table.Uscite tr:not(:first-child) td {
+    /*background-color: #ffeeef;*/
+}
+table tr td:first-child {
+    text-align: left;
+    width: 50%;
+    padding-left: 30px;
+}
+table.Entrate tr:first-child td {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(254, 173, 176);
+}
+table.Uscite tr:first-child td {
+    color: black;
+    font-weight: bold;
+}
+table.Uscite tr td:nth-child(2) {
+    text-align: right;
+    padding-right: 6%;
+}
