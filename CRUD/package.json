@@ -6,7 +6,10 @@
     "bootstrap": "^4.3.1",
     "cogo-toast": "^3.2.1",
     "react": "^16.9.0",
+    "react-csv": "^2.0.3",
+    "react-csv-reader": "^3.4.0",
     "react-dom": "^16.9.0",
+    "react-file-reader": "^1.1.4",
     "react-notifications-component": "^2.0.6",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"

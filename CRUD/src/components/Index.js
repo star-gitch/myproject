@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import toastr from "cogo-toast";
 import Create from "./Create";
 import Edit from "./Edit";
+import { CSVLink, CSVDownload } from "react-csv";
+import ReactFileReader from "react-file-reader";
+import CSVReader from "react-csv-reader";
 
 class Index extends Component {
     constructor() {
@@ -70,6 +73,21 @@ class Index extends Component {
         });
     }
 
+    handleForce = (data, fileInfo, originalFile) => {
+        console.log("kch=", data[1]);
+        let agenda = [];
+        let item;
+        for (var i = 1; i < data.length - 1; i++) {
+            item = {
+                id: data[i][0],
+                username: data[i][1],
+                mobile_no: data[i][2],
+                email: data[i][3],
+            };
+            agenda.push(item);
+        }
+        this.setState({ users: agenda });
+    };
     render() {
         return (
             <div className="card mt-4">
@@ -84,6 +102,8 @@ class Index extends Component {
                         {" "}
                         Add Agenda{" "}
                     </button>
+                    <CSVLink data={this.state.users}>Export</CSVLink>;
+                    <CSVReader onFileLoaded={this.handleForce} />
                 </div>
                 <div className="card-body">
                     <div className="col-md-12">
