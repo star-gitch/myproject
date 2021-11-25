@@ -1,0 +1,21 @@
+.header-part {
+  background: white; 
+  border-bottom-right-radius: 10px; 
+  border-bottom-left-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.profile-part {
+  display: flex;
+  color: #a5acbb;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:10px;
+  cursor: pointer;
+}
+.login-text {
+  font-size: 13px;
+  font-weight: 500;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}

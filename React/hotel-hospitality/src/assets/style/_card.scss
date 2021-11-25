@@ -1,0 +1,555 @@
+.voucher-row {
+  margin-left: 0;
+  margin-right: 0;
+  & > .col,
+  & > [class*="col-"] {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+.voucher-btn-row {
+  margin-left: -5px;
+  margin-right: -5px;
+  & > .col,
+  & > [class*="col-"] {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.voucher-card {
+  background: #f1edea;
+  width: 138px;
+  overflow: hidden;
+  border-radius: 30px;
+  padding: 12px 4px 12px 20px;
+  .brand-logo {
+    height: 50px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  .voucherLeft {
+    font-size: 14px;
+  }
+}
+
+.raffel-tickets-card {
+  padding: 30px 20px 24px;
+  border-radius: 30px;
+  color: #e5e5e5;
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .value {
+    background-color: #323232;
+    margin: 0;
+    text-align: center;
+    padding: 2px 2px;
+    border-radius: 6px;
+    font-weight: 500;
+    &.total {
+      font-size: 18px;
+      padding: 4px 2px;
+    }
+  }
+  .btn {
+    border-radius: 10px;
+  }
+}
+
+.scratch-card {
+  h5 {
+    font-size: 14px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+.gallerySlide {
+  padding: 20px 0;
+  .wrapper {
+    padding: 0 12.5px;
+    margin-bottom: 0;
+    display: flex;
+    overflow: auto;
+
+    li {
+      padding: 0 7.5px;
+      list-style: none;
+      .image {
+        &-card {
+          width: 325px;
+        }
+        &-box {
+          width: 100%;
+          padding-top: 55.385%;
+          position: relative;
+          border-radius: 12px;
+          overflow: hidden;
+          img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
+}
+
+.camera-upload-card {
+  .camera-upload-card-content{
+    padding: 20px 25px;   
+    @media (max-width: 375px) {
+      padding: 16px;
+    }
+  } 
+  .camera-upload-card-footer{   
+    .camera-upload-card-footer-text{
+      text-align: center; 
+      font-size: 18px;
+      img{
+        margin-left: 15px;
+        height: 25px;
+        width: 25px;
+      }
+    }
+    border-top: #F2F4F9 1px solid;
+    height: 30px;
+    background: #FBFBFB;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  background: #fff;
+  border-radius: 20px;
+ 
+  .img-box {
+    background-color: rgba(#fff06f, 0.5);
+    width: 76px;
+    height: 76px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title-wrapper {
+    // padding-left: 24px;
+  }
+  .title-camera {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.47;
+    margin-bottom: 0;
+    color: #252a32;
+    text-align: center!important;
+  }
+  .btn {
+    border-radius: 100px;
+    height: 50px;
+    font-size: 13px;
+    padding-left: 0;
+    padding-right: 0;
+    img {
+      margin-right: 12px;
+      transform: translateY(-2px);
+    }
+  }
+  .or {
+    font-size: 11px;
+    line-height: 1.64;
+    text-align: center;
+    color: #a3aaba;
+    margin-bottom: 2px;
+  }
+
+
+
+  a.upload-btn {
+    text-decoration: none;
+}
+
+  .upload-btn {
+    color: #252a32;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.54;
+    &:hover {
+      color: darken(#252a32, 10%);
+    }
+  }
+}
+
+.destination-card {
+  cursor: pointer;
+  width: 210px;
+  height: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  .location-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .layer {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to bottom,
+      rgba(177, 177, 177, 0) 20%,
+      rgba(50, 50, 50, 0.6) 75%,
+      #000000 101%
+    );
+  }
+  .subtractionIcon {
+    position: absolute;
+    top: -27px;
+    right: -27px;
+  }
+  .content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: #fff;
+    padding: 0 22px 24px;
+    .name {
+      font-size: 15px;
+      font-weight: 600;
+      line-height: 1.33;
+      margin-bottom: 12px;
+    }
+    .location {
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.33;
+      margin-bottom: 0;
+      img {
+        margin-right: 8;
+      }
+    }
+  }
+}
+
+.card-wrapper {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.BrandVoucherCard {
+  &.detail {
+  }
+  .info {
+    padding: 20px 0;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    .table {
+      margin-bottom: 0;
+      width: 100%;
+      font-size: 14px;
+      td {
+        border: 0;
+        padding-top: 4px;
+        padding-bottom: 4px;
+      }
+    }
+  }
+  .btn {
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .name {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.33;
+    color: #1a051d;
+    margin-bottom: 4px;
+  }
+  .validTime {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 1.54;
+    color: #766977;
+    margin-bottom: 0;
+  }
+  .discount-per {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1;
+    margin-bottom: 0;
+    @media (max-width: 375px) {
+      font-size: 22px;
+    }
+  }
+  .discount {
+    font-size: 15px;
+    line-height: 1.67;
+
+    margin-bottom: 0;
+  }
+  .qr-code {
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 0 auto;
+    background: rgba(#000, 0.07);
+    img {
+      max-width: 120px;
+    }
+  }
+}
+
+.voucher-content {
+  color: #22215b;
+
+  .btn {
+    font-size: 15px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 54px;
+  }
+  .terms {
+    padding: 10px 10px;
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 80%;
+      color: rgba(34,33,91,.6);
+      margin-bottom: 0px; margin-left: 30px;
+    }
+    .wrapper {
+      background: #ffffff;
+      box-shadow: 0px 3px 10px 0 rgba(86, 125, 244, 0.05);
+      border-radius: 20px;
+      padding: 15px 20px;
+    }
+  }
+  .bar-code-container {
+    padding-top: 35px;
+    background: #fff;
+    padding-top: 0px;
+    .wrapper {
+      background: #fafafa;
+      border-radius: 20px;
+      padding: 0px;
+      .holder {
+        border-radius: 20px;
+        box-shadow: 0px 3px 10px rgba(86, 125, 244, 0.05);
+        padding: 30px;
+        background: #fff;
+      }
+    }
+    .code {
+      max-width: 306px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      .code-text {
+        letter-spacing: 0.2em;
+        font-size: 14px;
+        color: #000000;
+        margin-top: 5px;
+      }
+    }
+    .code-info {
+      text-align: center;
+      font-size: 16px;
+      .code-name {
+        font-weight: bold;
+        font-size: 22px;
+        @media (max-width: 414px) {
+          font-size: 18px;
+        }
+      }
+      .code-text {
+        font-size: 16px;
+        color: rgba(#22215b, 0.6);
+        @media (max-width: 414px) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.invioce-card {
+  background: #fff;
+  border-top: 1px solid #9c9c9c;
+  border-bottom: 1px solid #9c9c9c;
+  padding: 20px 20px;
+  display: flex;
+  & + .invioce-card {
+    border-top: 0;
+  }
+  @media (max-width: $phone) {
+    align-items: center;
+  }
+  $imageSize: 60px;
+  $imageSizeMobile: 40px;
+  .img-col {
+    flex: 0 0 $imageSize;
+    max-width: $imageSize;
+    @media (max-width: $phone) {
+      flex: 0 0 $imageSizeMobile;
+      max-width: $imageSizeMobile;
+    }
+    img {
+      width: 100%;
+    }
+  }
+  .content-col {
+    padding-left: 16px;
+    flex: 0 0 calc(100% - #{$imageSize});
+    max-width: calc(100% - #{$imageSize});
+    @media (max-width: $phone) {
+      padding-left: 8px;
+      flex: 0 0 calc(100% - #{$imageSizeMobile});
+      max-width: calc(100% - #{$imageSizeMobile});
+    }
+  }
+  .info {
+    h3 {
+      font-size: 24px;
+      @media (max-width: $phone) {
+        font-size: 18px;
+        margin-bottom: 6px;
+      }
+    }
+  }
+  .info-detail {
+    color: #747474;
+    font-size: 14px;
+    @media (max-width: $phone) {
+      font-size: 12px;
+    }
+    p {
+      margin-bottom: 4px;
+    }
+    $size: 90px;
+    .c-left {
+      flex: 0 0 calc(100% - #{$size});
+      max-width: calc(100% - #{$size});
+    }
+    .c-right {
+      flex: 0 0 $size;
+      max-width: $size;
+      text-align: right;
+    }
+    .status {
+      font-weight: 700;
+      &.approved {
+        color: $green;
+      }
+      &.rejected {
+        color: $red;
+      }
+      &.pending {
+      }
+    }
+  }
+}
+
+.raffle-ticket {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+  overflow: hidden;
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  // height: 80%;
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  .left-bar,
+  .right-bar {
+    background-color: #343845;
+    border-radius: 12px;
+    min-height: 110px;
+  }
+
+  .left-bar {
+    padding: 15px 20px;
+    flex: 0 0 calc(100% - 10px - 89px);
+    max-width: calc(100% - 10px - 89px);
+    &-title {
+      text-align: center;
+      color: white;
+      z-index: 2;
+      font-size: 28px;
+    }
+    &-content {
+      text-align: center;
+      margin-top: 5px;
+    }
+  }
+  .right-bar {
+    padding: 17px 20px;
+    flex: 0 0 89px;
+    max-width: 89px;
+
+    position: relative;
+    .bar-code {
+      position: absolute;
+      top: 50px;
+      // left: 91%;
+
+      transform: rotate(-90deg) translate(-100%, -9%);
+      transform-origin: 0 0;
+
+      height: 100%;
+      width: 100%;
+      img {
+        width: 105%;
+      }
+    }
+  }
+  .bar-code {
+    p {
+      font-size: 12px;
+    }
+    .up {
+      margin-bottom: 5px;
+    }
+    .sm {
+      margin-top: 4px;
+      margin-bottom: 0;
+    }
+    img {
+      max-width: 140px;
+    }
+  }
+  .bar {
+    width: 10px;
+    height: 90px;
+    align-self: center;
+
+    background: repeating-linear-gradient(0deg, transparent 0 10px, #fff 10px 20px);
+    background-color: #343845;
+  }
+}

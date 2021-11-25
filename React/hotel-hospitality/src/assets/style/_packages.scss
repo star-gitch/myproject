@@ -1,0 +1,340 @@
+.main-view-packages {
+  margin-bottom: 15px;
+  @media (max-width: $xxxlDesktop) {
+    margin-bottom: 15px;
+  }
+  @media (max-width: $xxlDesktop) {
+    margin-bottom: 15px;
+  }
+  .title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1;
+    @media (max-width: $xxxlDesktop) {
+      font-size: 27px;
+    }
+    @media (max-width: $xxlDesktop) {
+      font-size: 24px;
+    }
+  }
+  .tab-btns {
+    margin-bottom: 20px;
+    margin-top: 10px;
+    .btn {
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 1.5;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #ababab;
+      padding: 0;
+      @media (max-width: $xxxlDesktop) {
+        font-size: 18px;
+      }
+      &:not(:last-child) {
+        margin-right: 62px;
+        @media (max-width: $xxxlDesktop) {
+          margin-right: 46px;
+        }
+        @media (max-width: $xlDesktop) {
+          margin-right: 30px;
+        }
+      }
+      &:hover,
+      &.active {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.adventurous {
+  .head {
+    margin-bottom: 40px;
+    @media (max-width: $xxxlDesktop) {
+      margin-bottom: 30px;
+    }
+    @media (max-width: $phone) {
+      margin-bottom: 52px;
+    }
+  }
+  .title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    @media (max-width: $xxxlDesktop) {
+      font-size: 18px;
+    }
+  }
+  .view-all {
+    padding: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #000000;
+    opacity: 0.16;
+    @media (max-width: $xxxlDesktop) {
+      font-size: 12px;
+    }
+    &:hover {
+      opacity: 0.3;
+    }
+  }
+  .options {
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $phone) {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      > div {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+      }
+    }
+    .btn {
+      padding: 0;
+
+      padding-top: 0;
+      padding-bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-transform: uppercase;
+      color: #989898;
+      font-size: 13px;
+      line-height: 16px;
+      margin: 0 auto 30px;
+
+      @media (max-width: $xxxlDesktop) {
+        font-size: 12px;
+      }
+
+      img {
+        width: 42px;
+        height: 42px;
+        object-fit: contain;
+        margin-bottom: 13px;
+        @media (max-width: $xxxlDesktop) {
+          width: 32px;
+          height: 32px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+.btn-success {
+  color: #fff !important;
+  background-color: #e94661 !important;
+  border-color: #e94661 !important;
+  &.active {
+    background-color: #e94661 !important;
+    border-color: #e94661 !important;
+  }
+}
+.btn-success:not(:disabled):not(.disabled):active{
+  background-color: #e94661 !important;
+  border-color: #e94661 !important;
+  color: white !important;
+}
+.btn-success:hover {
+  background-color: #e94661 !important;
+  border-color: #e94661 !important;
+}
+
+
+.field-input-items {
+  .f-i-col {
+    margin-bottom: 30px;
+    // @media (min-width: $desktop) and (max-width: $xxxlDesktop) {
+    //   flex: 0 0 100%;
+    //   max-width: 100%;
+    // }
+  }
+}
+.field-input-counter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  .f-title {
+    font-size: 18px;
+    line-height: 1;
+    color: #000000;
+    margin-bottom: 0;
+  }
+  .f-limit {
+    font-size: 13px;
+    line-height: 1;
+    color: #828282;
+    margin-bottom: 0;
+  }
+  .counter-wrapper {
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    width: 112px;
+    padding: 0 12px;
+    @media (max-width: 374px) {
+      margin-left: 12px;
+    }
+    .btn {
+      padding: 0;
+      width: 30px;
+      height: 30px;
+    }
+    .form-group {
+      margin-bottom: 0;
+      .form-control {
+        font-weight: 600;
+        border: 0;
+        background: transparent;
+        box-shadow: none;
+        text-align: center;
+      }
+    }
+  }
+}
+
+
+.LocationDetailBar {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 24px;
+  padding: 12px;
+  
+  display: none !important;
+  @media (max-width: $xxxlDesktop) {
+    padding: 12px;
+    border-radius: 18px;
+  }
+  @media (max-width: $tablet) {
+    padding: 8px;
+    border-radius: 16px;
+  }
+
+  .wrapper {
+    background: #fcfcfc;
+    border-radius: 24px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: $xxxlDesktop) {
+      padding: 16px;
+      border-radius: 16px;
+    }
+    @media (max-width: $tablet) {
+      padding: 8px;
+      border-radius: 10px;
+    }
+
+    > div {
+      padding: 0 4px;
+      flex-grow: 1;
+      &:not(:first-child) {
+        border-left: 1px dashed #94ab9e;
+      }
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 6px;
+      font-weight: 600;
+      @media (max-width: $xlDesktop) {
+        font-size: 16px;
+      }
+      @media (max-width: $tablet) {
+        font-size: 14px;
+      }
+      @media (max-width: $phone) {
+        font-size: 12px;
+      }
+    }
+    .rating {
+      font-size: 14px;
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 0;
+      @media (max-width: $xlDesktop) {
+        font-size: 14px;
+      }
+      @media (max-width: $tablet) {
+        font-size: 12px;
+        padding-left: 20px;
+      }
+      @media (max-width: $phone) {
+        font-size: 10px;
+        padding-left: 18px;
+      }
+      img {
+        width: 20px;
+        top: 0;
+        left: 0;
+        position: absolute;
+        @media (max-width: $xlDesktop) {
+          width: 18px;
+        }
+        @media (max-width: $tablet) {
+          width: 16px;
+        }
+        @media (max-width: $phone) {
+          width: 15px;
+        }
+      }
+    }
+    .price {
+      font-size: 22px;
+      font-weight: 600;
+      margin-bottom: 0;
+      @media (max-width: $xlDesktop) {
+        font-size: 20px;
+      }
+      @media (max-width: $tablet) {
+        font-size: 18px;
+      }
+      @media (max-width: $phone) {
+        font-size: 15px;
+      }
+    }
+    .person {
+      font-size: 14px;
+      margin-bottom: 0;
+      @media (max-width: $xlDesktop) {
+        font-size: 12px;
+      }
+      @media (max-width: $tablet) {
+        font-size: 10px;
+      }
+      @media (max-width: $phone) {
+        font-size: 8px;
+      }
+    }
+    .btn {
+      &-more {
+        background-color: #f0b25c;
+        border: 0;
+        color: #b4833b;
+        border-radius: 8px;
+        height: 100%;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        @media (max-width: $xlDesktop) {
+          font-size: 14px;
+        }
+        @media (max-width: $tablet) {
+          font-size: 12px;
+        }
+        @media (max-width: $phone) {
+          font-size: 10px;
+        }
+        span {
+          font-size: 1.5em;
+        }
+      }
+    }
+  }
+}

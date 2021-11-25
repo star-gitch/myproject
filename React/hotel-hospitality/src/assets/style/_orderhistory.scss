@@ -1,0 +1,122 @@
+.history-body {
+  // padding-left:0px;
+  // padding-right:15px;
+}
+
+.hotory-item {
+  position: relative;
+  width: 343px;
+  height: 174px;
+
+  background: #FFFFFF;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.hitory-item-logo {
+  position: absolute;
+  width: 75px;
+  height: 69px;
+  left: 15px;
+  top: 15px;
+}
+
+.hitory-item-title {
+  position: absolute;
+  font-family: poppins,helvetica neue,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  color: #4F4F4F;
+  height: 18px;
+  left: 103px;
+  top: 15px;
+}
+
+.hitory-item-description {
+  position: absolute;
+  width: 225px;
+  height: 32px;
+  left: 103px;
+  top: 38px;
+
+  font-family: poppins,helvetica neue,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #979797;
+}
+
+.hitory-item-name {
+  position: absolute;
+  width: 47px;
+  height: 14px;
+  left: 294px;
+  top: 16px;
+
+  font-family: poppins,helvetica neue,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  color: #FD6D6D;
+}
+
+.hitory-item-order {
+  position: absolute;
+  // width: 56px;
+  height: 13px;
+  left: 16px;
+  top: 100px;
+
+  font-family: poppins,helvetica neue,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 100%;
+  display: flex;
+  align-items: flex-end;
+
+  color: #979797;
+}
+
+.hitory-item-time {
+  position: absolute;
+  // width: 156px;
+  // height: 13px;
+  left: 79px;
+  top: 100px;
+
+  font-family: 'SF Pro Display Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 100%;
+  color: #4F4F4F;
+}
+
+.btn-delivered {
+  position: absolute;
+  width: 73px;
+  height: 26px;
+  left: 245px;
+  top: 133px;
+  background: #27AE60;
+  border: none;
+  border-radius: 6px;
+  font-family: poppins,helvetica neue,Arial,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px;
+}

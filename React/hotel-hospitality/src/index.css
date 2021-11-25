@@ -1,0 +1,533 @@
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("/src/assets/font/FontsFree-Net-SFProDisplay-Regular.ttf");
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+        "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+        "Helvetica Neue", "SF Pro Display" sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+.app {
+    position: relative;
+    width: 375px;
+    height: 800px;
+}
+.splash {
+    position: relative;
+    width: 375px;
+    height: 800px;
+
+    background: #3f5469;
+    border-radius: 20px;
+}
+.frame {
+    position: absolute;
+    width: 375px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+}
+.eclipse50 {
+    position: absolute;
+    /* width: 771px;
+height: 476px; */
+    left: 120.65px;
+    top: -424.86px;
+
+    background: #3c5c7c;
+    filter: blur(200px);
+    transform: rotate(30deg);
+}
+/* .backlogo1{
+  position: absolute;
+width: 347.4px;
+height: 180px;
+left: 100px;
+top: 201.4px;
+
+background: url('/src/assets/image/TMR_Logo-English-1\ 1.png');
+transform: matrix(0, -1, -1, 0, 0, 0);
+} */
+/* .backlogo2 {
+  position: absolute;
+width: 263px;
+height: 137px;
+left: 506px;
+top: 743px;
+
+background: url('/src/assets/image/TMR_Logo-English-1\ 2.png');
+transform: matrix(-1, 0, 0, 1, 0, 0);
+} */
+.home-indicator {
+    position: absolute;
+    width: 131px;
+    height: 5px;
+    left: calc(50% - 131px / 2);
+    bottom: 10px;
+
+    background: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-radius: 100px;
+}
+.frame190 {
+    position: absolute;
+    width: 375px;
+    height: 18vh;
+    left: 0px;
+    top: 0px;
+    background: url("/src/assets/image/Group\ 15.png");
+    opacity: 0.7;
+}
+/* .group15{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: -170.26px;
+  top: -17.36px;
+  } */
+.frame188 {
+    position: absolute;
+    width: 375px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: url("/src/assets/image/Frame\ 188.png");
+}
+.logo1 {
+    position: absolute;
+    width: 190.66px;
+    height: 23vh;
+    left: 92px;
+    top: 319px;
+}
+.vector {
+    position: absolute;
+    left: 1.79%;
+    right: 1.64%;
+    top: 0%;
+    bottom: 44.39%;
+
+    background: url("/src/assets/image/Vector.png");
+}
+.vector1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 65.37%;
+    bottom: 24.88%;
+
+    background: url("/src/assets/image/Vector\ \(2\).png");
+}
+.vector2 {
+    position: absolute;
+    left: 39.01%;
+    right: 27.35%;
+    top: 82.44%;
+    bottom: 0%;
+
+    background: url("/src/assets/image/Vector\ \(3\).png");
+}
+.vector3 {
+    position: absolute;
+    left: 26.91%;
+    right: 64.57%;
+    top: 82.44%;
+    bottom: 0%;
+
+    background: url("/src/assets/image/Vector\ \(4\).png");
+}
+.paq {
+    position: absolute;
+    width: 60px;
+    height: 4px;
+    left: 157px;
+    top: 758px;
+}
+.rect1 {
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    left: 202px;
+    top: 759px;
+
+    background: #ffffff;
+    opacity: 0.2;
+    border-radius: 55px;
+}
+.rect2 {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    left: 157px;
+    top: 758px;
+
+    background: rgba(253, 109, 109, 0.5);
+    border-radius: 55px;
+}
+.sprect1 {
+    position: absolute;
+    width: 30px;
+    height: 4px;
+    left: 202px;
+    top: 759px;
+
+    background: rgba(253, 109, 109, 0.5);
+    border-radius: 55px;
+}
+
+.sprect2 {
+    position: absolute;
+
+    left: 157px;
+    top: 758px;
+    width: 15px;
+    height: 2px;
+
+    background: #ffffff;
+    opacity: 0.2;
+    border-radius: 55px;
+}
+
+.frame189 {
+    position: absolute;
+    width: 375px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: url("./assets/image/figma\ 189.png");
+}
+
+.spvector {
+    position: absolute;
+    left: 1.79%;
+    right: 1.64%;
+    top: 0%;
+    bottom: 44.39%;
+    background: url("/src/assets/image/Vector.png");
+}
+.spvector1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 65.37%;
+    bottom: 24.88%;
+    background: url("/src/assets/image/Vector\ \(2\).png");
+}
+.spvector2 {
+    background: url("/src/assets/image/Vector\ \(3\).png");
+    position: absolute;
+    left: 39.01%;
+    right: 27.35%;
+    top: 82.44%;
+    bottom: 0%;
+}
+.spvector3 {
+    background: url("/src/assets/image/Vector\ \(4\).png");
+
+    position: absolute;
+    left: 26.91%;
+    right: 64.57%;
+    top: 82.44%;
+    bottom: 0%;
+}
+.content {
+    position: absolute;
+    width: 295px;
+    height: 42px;
+    left: 40px;
+    top: 488px;
+
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 130%;
+    /* or 21px */
+
+    text-align: center;
+
+    color: #ffffff;
+
+    opacity: 0.7;
+}
+.logo2 {
+    position: absolute;
+    width: 190.66px;
+    height: 175px;
+    left: 92px;
+    top: 283px;
+}
+.btnContent {
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: 40px;
+    top: 577px;
+    font-family: "SF Pro Display";
+
+    background: #fd6d6d;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+}
+.startBtn {
+    padding: 19px 100px;
+
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: 40px;
+    top: 577px;
+
+    /* Linear */
+}
+.logInBtn {
+    position: absolute;
+    width: 295px;
+    height: 54px;
+    left: 40px;
+    top: 651px;
+    font-family: "SF Pro Display";
+
+    background: #486078;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: white;
+}
+.signIn {
+    position: relative;
+    width: 375px;
+    height: 800px;
+
+    background: #ffffff;
+    border-radius: 20px;
+}
+.signLogo {
+    position: absolute;
+    width: 375px;
+    height: 218px;
+    left: 0px;
+    top: 0px;
+    background: url("./assets/image/Frame\ 186.png");
+}
+.signContent {
+    position: absolute;
+    width: 315px;
+    height: 254px;
+    left: 30px;
+    top: 279px;
+}
+.sign-indicator {
+    position: absolute;
+    width: 131px;
+    height: 5px;
+    left: calc(50% - 131px / 2);
+    bottom: 10px;
+
+    background: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    border-radius: 100px;
+}
+.sign-froms {
+    /* position: absolute; */
+    width: 315px;
+    height: 207px;
+    left: 30px;
+    top: 279px;
+}
+.sign-forms-title {
+    /* position: absolute; */
+    width: 213px;
+    height: 43px;
+    left: 30px;
+    top: 279px;
+}
+.tit1 {
+    /* position: absolute; */
+    width: 85px;
+    height: 20px;
+    left: 30px;
+    top: 279px;
+
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 100%;
+    /* identical to box height, or 20px */
+
+    /* #4F4F4F */
+
+    color: #4f4f4f;
+}
+.tit2 {
+    /* position: absolute; */
+    width: 213px;
+    height: 16px;
+    left: 30px;
+    top: 306px;
+    margin-top: 10px;
+
+    font-family: "SF Pro Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    /* identical to box height, or 16px */
+
+    text-align: center;
+
+    /* #979797 */
+
+    color: #979797;
+}
+.emailInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* padding: 11px 15px 11px 25px; */
+
+    /* position: absolute; */
+    width: 315px;
+    height: 60px;
+    left: 30px;
+    top: 347px;
+    margin-top: 20px;
+
+    /* #D9D9D9 */
+
+    /* border: 1px solid #d9d9d9; */
+    box-sizing: border-box;
+    /* border-radius: 10px; */
+}
+
+.signBtn {
+    /* position: absolute; */
+    width: 315px;
+    height: 54px;
+    left: 30px;
+    top: 432px;
+    margin-top: 20px;
+}
+.signCodeContent {
+    position: absolute;
+    width: 315px;
+    height: 254px;
+    left: 30px;
+    top: 240px;
+}
+.oneInput {
+    width: 60px;
+    height: 60px;
+    left: 30px;
+    top: 313px;
+
+    /* #FFFFFF */
+
+    background: #ffffff;
+    /* #D9D9D9 */
+
+    border: 1px solid #d9d9d9;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.signUpInp {
+    /* display: flex; */
+    position: absolute;
+    width: 315px;
+    height: 220px;
+    left: 30px;
+    top: 329px;
+    box-sizing: border-box;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    right: 0%;
+    top: 89.78%;
+    bottom: 3.08%;
+}
+.dashboard-indicator {
+    position: absolute;
+    width: 131px;
+    height: 5px;
+    left: calc(50% - 131px / 2);
+    bottom: 10px;
+
+    background: #d9d9d9;
+    mix-blend-mode: normal;
+    border-radius: 100px;
+}
+div#otp input {
+    width: 60px !important;
+    height: 56px;
+    border-radius: 10px;
+    border: 1px solid rgb(133, 133, 133);
+}
+.makeStyles-inputContent-6 > div {
+    justify-content: space-between;
+}
+@media only screen and (max-width: 1020px) {
+    .frame190 {
+        width: 100vw;
+    }
+    .frame {
+        width: 100vw;
+        height: 100vh;
+    }
+    .frame188 {
+        width: 100vw;
+    }
+    .splash {
+        width: 100vw;
+        border-radius: 0px;
+    }
+    .signIn {
+        width: 100vw;
+        height: 120vh;
+    }
+    .signLogo {
+        width: 100vw;
+        background-size: 100% 100%;
+        height: 33vh;
+    }
+    .signCodeContent {
+        width: 85vw;
+    }
+    .signBtn {
+        width: 85vw;
+    }
+    .signUpInp {
+        width: 85vw;
+        top: 46%;
+    }
+}
