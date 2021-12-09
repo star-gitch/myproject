@@ -1,0 +1,122 @@
+#signform {
+    margin: auto;
+    margin-top: 3%;
+}
+#signform .p-account {
+    font-weight: bold;
+    color: #011627;
+    font-size: 24px;
+}
+#signform .btn-google {
+    color: #ec4d61;
+    font-size: 14px;
+    font-weight: 600;
+    background: rgba(228, 31, 76, 0.1);
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+}
+#signform .emailLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+#signform .emailLogin .left {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #d8dfe7;
+}
+#signform .emailLogin .right {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #d8dfe7;
+}
+#signform .emailLogin p {
+    font-size: 14px;
+    color: #7d94ae;
+}
+#signform .company {
+    margin-top: 30px;
+}
+#signform .company p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    text-align: left;
+}
+#signform .p-fullname {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+#signform .div-email {
+    margin-top: 30px;
+}
+#signform .div-email > div {
+    justify-content: space-between;
+}
+#signform .div-email > div p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+#signform .div-pass {
+    margin-top: 30px;
+}
+#signform .div-pass > div {
+    justify-content: space-between;
+}
+#signform .div-pass > div p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+#signform .div-agree {
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+#signform .div-agree p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    color: black;
+    padding: 0px;
+}
+#signform .div-agree a {
+    color: #ec4d61;
+    font-size: 14px;
+    padding-left: 5px;
+}
+#signform .btn-signup {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ec4d61;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+    margin-top: 20px;
+}
+#signform .p-already {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    color: black;
+    padding: 0px;
+}
+#signform .a-login {
+    color: #ec4d61;
+    font-size: 14px;
+}
+#signform .div-account {
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 5px;
+    align-items: center;
+}

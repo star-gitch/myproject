@@ -1,0 +1,43 @@
+#resetform {
+    margin-top: 120px;
+    margin: auto;
+}
+#resetform > p:first-child {
+    font-weight: bold;
+    color: #011627;
+    font-size: 24px;
+}
+#resetform > p:nth-child(2) {
+    font-weight: 500;
+    color: #011627;
+    font-size: 14px;
+}
+#resetform .new-pass {
+    margin-top: 30px;
+}
+#resetform .new-pass p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+#resetform .confirm-pass {
+    margin-top: 30px;
+}
+#resetform .confirm-pass p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+#resetform .btn-reset {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ec4d61;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+    margin-top: 20px;
+}

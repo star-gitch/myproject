@@ -1,0 +1,61 @@
+@import "../../../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../../../node_modules/@syncfusion/ej2-buttons/styles/material.css";
+@import "../../../node_modules/@syncfusion/ej2-inputs/styles/material.css";
+@import "../../../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../../../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+.top-list {
+    background: #f5f6f9;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.filter {
+    padding: 0px 15px 10px;
+    width: 14%;
+    display: inline-block;
+}
+.filter > p:first-child {
+    border-bottom: 1px solid #d8dfe7;
+    text-align: left;
+    padding: 20px 0px 10px;
+    color: #687b90;
+    font-size: 14px;
+    font-weight: 500;
+}
+.filter-date > p {
+    color: #011627;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    padding: 13px 0px 10px;
+}
+.btn-filter {
+    background: #ec4d61;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    text-transform: none;
+    width: 100%;
+    margin-top: 25px;
+}
+.btn-export {
+    border: 1px solid #ec4d61 !important;
+    color: #ec4d61 !important;
+}
+.filter > div {
+    position: sticky;
+    top: 60px;
+}
+@media only screen and (max-width: 1020px) {
+    .data-list {
+        width: 100% !important;
+        padding: 0px 10px;
+    }
+    .filter {
+        width: 100%;
+    }
+    .filter > div {
+        position: unset;
+    }
+}

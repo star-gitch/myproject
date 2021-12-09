@@ -1,0 +1,88 @@
+.all-pro .all-size {
+    display: flex;
+    justify-content: space-between;
+}
+.all-pro .all-size p {
+    font-weight: 500;
+    font-size: 16px;
+    color: #011627;
+}
+.all-pro {
+    padding: 22px 28px;
+}
+.all-list {
+    margin-top: 15px;
+}
+.each-pro .positive {
+    background: rgba(24, 167, 107, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px;
+}
+.each-pro .positive p {
+    color: #18a76b;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 1px 9px;
+}
+.each-pro .negative {
+    background: rgba(236, 77, 97, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px;
+}
+.each-pro .negative p {
+    color: #ec4d61;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 1px 9px;
+}
+.each-pro .neutral {
+    background: rgba(246, 163, 0, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+    margin: 20px;
+}
+.each-pro .neutral p {
+    color: #f6a300;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 1px 9px;
+}
+.each-pro .detail {
+    font-weight: normal;
+    font-size: 14px;
+    color: #011627;
+    margin: 0px 20px;
+    line-height: 200%;
+}
+.each-pro .more {
+    font-weight: normal;
+    font-size: 14px;
+    color: #ec4d61;
+    line-height: 200%;
+    margin: 0px 20px;
+}
+.vector,
+.calendar {
+    display: flex;
+    align-items: center;
+}
+.each-pro {
+    width: 31%;
+    text-align: left;
+    display: inline-block;
+    background: white;
+    margin: 0px 18px 18px 0px;
+}
+.vector p,
+.calendar p {
+    font-size: 14px;
+    line-height: 200%;
+    color: #7d94ae;
+    padding-left: 10px;
+}
+.vector,
+.calendar {
+    margin: 10px 20px;
+}

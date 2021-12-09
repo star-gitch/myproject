@@ -1,0 +1,28 @@
+.frequency {
+    background-color: #f5f6f9;
+    width: 70%;
+}
+.status-bar {
+    margin: 16px 28px;
+    background: white;
+}
+.status-bar .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 29px;
+    border-bottom: 1px solid #d8dfe7;
+}
+.status-bar .top p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #011627;
+}
+@media only screen and (max-width: 1020px) {
+    .fre-opt {
+        flex-direction: row !important;
+    }
+    .frequency {
+        width: 100%;
+    }
+}

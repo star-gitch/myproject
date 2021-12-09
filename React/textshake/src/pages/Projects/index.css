@@ -1,0 +1,16 @@
+.content {
+    margin: auto;
+}
+.pro-list {
+    margin: auto !important;
+    text-align: left !important;
+    padding-top: 55px;
+}
+.pro-list > p {
+    color: #011627;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 34px;
+    padding-bottom: 20px;
+}

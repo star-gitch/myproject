@@ -1,0 +1,59 @@
+.btn-toggle {
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    background: #353535;
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    display: none;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:focus {
+    background: rgba(236, 77, 97, 0.1);
+    border-radius: 4px;
+    color: #ec4d61;
+    font-weight: 500;
+    font-size: 16px;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-content {
+    margin: 0px 16px;
+}
+.pro-sidebar .pro-menu .pro-menu-item {
+    font-size: 16px;
+    color: #011627;
+    font-weight: 500;
+}
+.pro-icon svg {
+    width: 24px;
+    height: 24px;
+}
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item {
+    padding-left: 3px;
+}
+.pro-sidebar > .pro-sidebar-inner > .pro-sidebar-layout .pro-sidebar-header {
+    border-bottom: none;
+}
+.pro-sidebar {
+    min-height: 91vh;
+    position: sticky;
+    top: 61px;
+}
+@media only screen and (max-width: 1020px) {
+    .btn-toggle {
+        display: flex;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+    }
+    .pro-sidebar.md.toggled {
+        top: 0px;
+        width: 50%;
+    }
+    .pro-sidebar.md {
+        top: 0px;
+    }
+}

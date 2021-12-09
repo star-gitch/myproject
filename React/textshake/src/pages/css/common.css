@@ -1,0 +1,21 @@
+#forgotform {
+    min-height: 58vh;
+}
+@media only screen and (max-width: 1020px) {
+    #forgotform {
+        margin-top: 30px !important;
+        padding: 10px;
+    }
+    #loginform {
+        margin-top: 30px !important;
+        padding: 10px;
+    }
+    #resetform {
+        margin-top: 30px !important;
+        padding: 10px;
+    }
+    #signform {
+        margin-top: 30px !important;
+        padding: 10px;
+    }
+}

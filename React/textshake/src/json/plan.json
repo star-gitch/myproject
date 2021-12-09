@@ -1,0 +1,19 @@
+{
+    "premium": [
+        "Unlimited words",
+        "Unlimited projects",
+        "Sentiment Analysis",
+        "Topic Modelling",
+        "Word Clouds",
+        "Word Frequency",
+        "Customer Support"
+    ],
+    "free": [
+        "15,000 words",
+        "1 project",
+        "Sentiment Analysis",
+        "Topic Modelling",
+        "Word Clouds",
+        "Word Freequency"
+    ]
+}

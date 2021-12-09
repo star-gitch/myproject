@@ -1,0 +1,90 @@
+#loginform {
+    margin-top: 3%;
+    margin: auto;
+    margin-top: 3%;
+}
+#loginform .emailLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+}
+#loginform .p-welcome {
+    font-weight: bold;
+    color: #011627;
+    font-size: 24px;
+}
+#loginform > button:nth-child(2) {
+    color: #ec4d61;
+    font-size: 14px;
+    font-weight: 600;
+    background: rgba(228, 31, 76, 0.1);
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+}
+#loginform .left {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #d8dfe7;
+}
+#loginform .right {
+    width: 100px;
+    height: 0px;
+    border: 1px solid #d8dfe7;
+}
+#loginform .emailLogin p {
+    font-size: 14px;
+    color: #7d94ae;
+}
+#loginform .email-form {
+    margin-top: 30px;
+}
+#loginform .email-form p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+#loginform .pass-form {
+    margin-top: 30px;
+}
+#loginform .pass-form > div {
+    justify-content: space-between;
+}
+#loginform .pass-form > div p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+}
+#loginform .pass-form > div a {
+    color: #ec4d61;
+    font-size: 14px;
+}
+#loginform .btn-login {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    background: #ec4d61;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+    margin-top: 20px;
+}
+#loginform .new-account {
+    justify-content: center;
+    padding-top: 20px;
+}
+#loginform .new-account p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 14px;
+    color: black;
+    padding: 0px;
+}
+#loginform .new-account a {
+    color: #ec4d61;
+    font-size: 14px;
+}
