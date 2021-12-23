@@ -1,0 +1,27 @@
+.good {
+    flex-grow: 1;
+    padding: 3%;
+}
+.good .btn-new {
+    border: none;
+    float: right;
+    margin-bottom: 20px;
+}
+.p-good {
+    -webkit-flex-wrap: unset !important;
+    flex-wrap: unset !important;
+}
+.good .btn-del {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-right: 10px;
+}
+.good .btn-del:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+.good > p:first-child {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}

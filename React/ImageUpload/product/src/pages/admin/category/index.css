@@ -1,0 +1,41 @@
+.cat .btn-new {
+    border: none;
+    float: right;
+    margin-bottom: 20px;
+}
+.cat {
+    flex-grow: 1;
+    padding: 3%;
+}
+
+.cat .next {
+    color: unset;
+    position: unset;
+    top: unset;
+    right: unset;
+    font-size: unset;
+}
+
+.cat .btn-del {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-right: 10px;
+}
+.cat .btn-del:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+.p-cat {
+    -webkit-flex-wrap: unset !important;
+    flex-wrap: unset !important;
+}
+
+.cat #tbl_cat_info {
+    display: none;
+}
+
+.cat > p:first-child {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
