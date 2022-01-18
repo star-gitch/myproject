@@ -1,0 +1,101 @@
+ul.tabs {
+  margin: 0;
+  padding: 0;
+  float: left;
+  list-style: none;
+  height: 32px;
+  border-bottom: 2px solid var(--border-b-sm);
+  width: 100%;
+}
+
+ul.tabs li {
+  float: left;
+  margin: 0;
+  cursor: pointer;
+  padding: 0px 21px;
+  height: 31px;
+  line-height: 31px;
+  font-size: 20px;
+  text-transform: uppercase;
+  /* border-top: 2px solid  var(--border-b-sm);
+  border-left: 2px solid  var(--border-b-sm);
+  border-bottom: 2px solid var(--border-b-sm); */
+  /* background-color: #666; */
+  color: var(--text-color-green);
+  overflow: hidden;
+  position: relative;
+}
+
+/* .tab_last {
+  border-right: 2px solid  var(--border-b-sm);
+} */
+/* 
+ul.tabs li:hover {
+  background-color: #ccc;
+  color: #333;
+} */
+
+ul.tabs li.active {
+  background-color: #fff;
+  color: var(--text-color-green);
+  border-right: 2px solid  var(--border-b-sm);
+  border-top: 2px solid  var(--border-b-sm);
+  border-left: 2px solid  var(--border-b-sm);
+  border-bottom: 0px solid var(--border-b-sm);
+  display: block;
+  font-weight: 700;
+  border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.tab_container {
+  border: 2px solid var(--border-b-sm);
+  border-top: none;
+  clear: both;
+  float: left;
+  width: 100%;
+  background: #fff;
+  overflow: auto;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.tab_content {
+  padding: 20px;
+  display: none;
+}
+.tab_content .row .col-md-2{
+  color: var(--text-color-grey);
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-family: Proxima Nova Alt;
+  font-size: 18px;
+}
+.tab_drawer_heading {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .tabs {
+    display: none;
+  }
+  .tab_drawer_heading {
+    background-color: var(--bg-gray);
+    color: var(--text-color-green);
+    border-top: 1px solid var(--border-b-sm);
+    margin: 0;
+    padding: 5px 20px;
+    display: block;
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .d_active {
+    background-color: #ada9a9;
+    color: black;
+  }
+}
