@@ -1,0 +1,60 @@
+.signup {
+    margin: 3% auto !important;
+}
+.signup form > div > div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signup form > div > div.repass {
+    margin-bottom: 0px;
+}
+.signup .btn-signup {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background: #ec4d61;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+    margin-top: 20px;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+.signup .btn-signup:hover {
+    background: #ec4d61;
+    border: none;
+}
+.signup .p-welcome {
+    font-size: 25px;
+}
+.signup .btn-signup {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background: #ec4d61;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+    margin-top: 20px;
+    padding: 7px;
+    margin-top: 20px;
+}
+.signup .p-err {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  letter-spacing: 0.03333em;
+  text-align: left;
+  margin-top: 3px;
+  margin-right: 14px;
+  margin-bottom: 0;
+  margin-left: 14px;
+  color: #d32f2f;
+}
+@media only screen and (max-width: 1020px) {
+  .signup {
+      padding: 30px 10px;
+  }
+}

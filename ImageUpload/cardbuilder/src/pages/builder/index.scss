@@ -1,0 +1,32 @@
+.builder .navbar {
+    background: #0a1929;
+    display: flex;
+    justify-content: end;
+    padding: 20px 30px;
+}
+.builder .navbar svg {
+    color: white;
+}
+.builder .upload form > div > div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.builder .upload {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+.btn-save {
+    width: 200px !important;
+    margin-top: 30px !important;
+    padding: 10px !important;
+    background: red !important;
+}
+@media only screen and (max-width: 1020px) {
+    .builder .upload {
+        width: 100%;
+    }
+    .builder .upload form {
+        padding: 10px;
+    }
+}

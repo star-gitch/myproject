@@ -1,0 +1,32 @@
+.login {
+    margin: 3% auto !important;
+}
+.login form > div > div {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login .btn-login {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    background: #ec4d61;
+    border-radius: 4px;
+    border: none;
+    width: 100%;
+    text-transform: unset;
+    margin-top: 20px;
+    padding: 7px;
+    margin-bottom: 20px;
+}
+.login .btn-login:hover {
+    background: #ec4d61;
+    border: none;
+}
+.login .p-welcome {
+    font-size: 25px;
+}
+@media only screen and (max-width: 1020px) {
+  .login {
+      padding: 30px 10px;
+  }
+}
