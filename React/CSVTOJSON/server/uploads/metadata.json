@@ -1,0 +1,134 @@
+[
+    {
+        "field1": "0",
+        "background": "white",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "std_lord",
+        "clothes": "blue_dot",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "none"
+    },
+    {
+        "field1": "1",
+        "background": "blue",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "std_lord",
+        "clothes": "none",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    },
+    {
+        "field1": "2",
+        "background": "white",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "std_lord",
+        "clothes": "none",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "none"
+    },
+    {
+        "field1": "3",
+        "background": "blue",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "none",
+        "clothes": "none",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    },
+    {
+        "field1": "4",
+        "background": "white",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "std_lord",
+        "clothes": "blue_dot",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    },
+    {
+        "field1": "5",
+        "background": "blue",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "none",
+        "clothes": "blue_dot",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    },
+    {
+        "field1": "6",
+        "background": "white",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "none",
+        "clothes": "blue_dot",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    },
+    {
+        "field1": "7",
+        "background": "blue",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "std_lord",
+        "clothes": "none",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "none"
+    },
+    {
+        "field1": "8",
+        "background": "white",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "none",
+        "clothes": "none",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    },
+    {
+        "field1": "9",
+        "background": "white",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "std_lord",
+        "clothes": "none",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    },
+    {
+        "field1": "10",
+        "background": "blue",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "none",
+        "clothes": "blue_dot",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "none"
+    },
+    {
+        "field1": "11",
+        "background": "blue",
+        "body": "maroon",
+        "eyes": "standard",
+        "head_gear": "std_lord",
+        "clothes": "blue_dot",
+        "held_item": "nut",
+        "hands": "standard",
+        "wristband": "yellow"
+    }
+]

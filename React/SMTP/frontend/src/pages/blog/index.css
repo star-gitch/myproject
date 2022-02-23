@@ -1,0 +1,24 @@
+.inner_des {
+    height: unset;
+    background: white;
+}
+.inner_des > div {
+    height: 175px;
+    overflow: hidden;
+}
+.blog .slick-slide img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    height: 200px;
+    margin: auto;
+}
+.blog .slick-slide {
+    margin: 0px;
+}
+.blog .slick-slide {
+    background: unset;
+    box-shadow: unset;
+}
+.blog .slick-list {margin: 0 -5px;}
+.blog .slick-slide>div {padding: 0 20px;}

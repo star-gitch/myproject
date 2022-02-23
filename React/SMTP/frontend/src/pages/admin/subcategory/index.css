@@ -1,0 +1,27 @@
+.sub {
+    flex-grow: 1;
+    padding: 3%;
+}
+.sub .btn-new {
+    border: none;
+    float: right;
+    margin-bottom: 20px;
+}
+.p-sub {
+    -webkit-flex-wrap: unset !important;
+    flex-wrap: unset !important;
+}
+.sub .btn-del {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    margin-right: 10px;
+}
+.sub .btn-del:hover {
+    background-color: #bb2d3b;
+    border-color: #b02a37;
+}
+.sub > p:first-child {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
